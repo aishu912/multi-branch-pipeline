@@ -8,7 +8,7 @@ pipeline{
   stages{
     stage('cleaning up existing containers'){
        steps{
-              sh "touch q1"
+              sh "touch q2-file"
        
        }
     }
